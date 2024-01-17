@@ -1,0 +1,9 @@
+import turtle
+def show_coordinates(x, y):
+    t.clearstamps()
+    t.penup()
+    t.goto(x, y)
+    t.stamp()
+    print(f"Clicked at coordinates: ({x}, {y})")
+t = turtle.Turtle()
+t.shape("turtle")
